@@ -30,7 +30,7 @@ end
 def while_iterator(number_of_times)
    phrase = "Welcome to Flatiron School's Web Development Course!"
   counter = 0
-  while counter < number_of_times 
+  while counter <= number_of_times 
   puts phrase
   # hint: user a counter to tell the while loop when to stop!
  
@@ -38,12 +38,13 @@ def while_iterator(number_of_times)
 end
 end
 
-def until_iterator(7)
+def until_iterator(number_of_times)
+   phrase = "Welcome to Flatiron School's Web Development Course!"
   counter = 0
-  until counter == 7
+  until counter == number_of_times
   # code your solution here using the "until" keyword
   # hint: use a counter to tell the until loop when to stop!
-  puts "Welcome to Flatiron School's Web Development Course!"
+ puts phrase
   counter += 1
 end
 end
